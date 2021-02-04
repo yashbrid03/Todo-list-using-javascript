@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background-image: url(Background.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+}
+
+header {
+    font-size: 2rem;
+}
+
+header,
+form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input,
+form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: white;    
+}
+
+form input{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+    padding-left: 20px;
+    font-size: 1.6rem;
+    padding: 0.75rem;
+}
+
+form button {
+    color: #ed7691;
+    background: #f7fffe;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+form button:hover {
+    background: #ed7691;
+    color: white;
+}
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+}
+
+.todo {
+    margin: 0.5rem;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.81) 0%, rgba(255, 255, 255, 0.16) 100%);
+    backdrop-filter: blur(10px);
+    font-size: 1.5rem;
+    border-radius: 10px;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 1s ease;
+}
+
+.filter-todo {
+    padding: .8rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+   
+}
+
+.todo li {
+    flex: 1;  
+}
+
+.trash-btn,
+.complete-btn {
+    background: #ff6f47;
+    color: white;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    outline: none;
+}
+
+.complete-btn {
+    background: rgba(11, 212, 162, 0.60);
+    backdrop-filter: blur(10px);
+}
+
+.complete-btn:hover{
+    background: rgba(11, 212, 162, 1);
+}
+
+.trash-btn{
+    background: rgba(255, 111, 71, 0.60);
+    backdrop-filter: blur(10px);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.trash-btn:hover{
+    background: rgba(255, 111, 71, 1);
+}
+
+.todo-item {
+    padding: 0rem 0.5rem;
+}
+
+.fa-trash,
+.fa-check {
+    pointer-events: none;
+}
+
+.fall {
+    transform: translateY(10rem) rotateZ(20deg);
+    opacity: 0;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+    background-image: none;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    width: 12rem;
+    height: 3.3rem;
+}
+
+.select {
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.select::after {
+    content: "\25BC";
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #da6bae;
+    padding: 1rem;
+    cursor: pointer;
+    pointer-events: none;
+}

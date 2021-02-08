@@ -30,13 +30,13 @@ form button {
     padding: 0.5rem;
     font-size: 2rem;
     border: none;
+    outline: none;
     background: white;    
 }
 
 form input{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
-    outline: none;
     padding-left: 20px;
     font-size: 1.6rem;
     padding: 0.75rem;

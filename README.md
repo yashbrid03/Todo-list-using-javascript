@@ -1,6 +1,15 @@
 # Todo-list-using-javascript
 <h2>📙 Abstract :</h2>
-<p></p>
+<p>Todo-list web application is used to manage and keep track of day-to-day task.
+  It includes Features like
+  <ul>
+    <li>Adding task</li>
+    <li>Removing Task</li>
+    <li>Marking Task as Completed</li>
+    <li>Sorting Task on basis of completed or uncompleted</li>
+  </ul>
+  Some animations are also added using CSS. All the task are stored in localstorage, So incase you hit refresh button or closed the tab your todos(i.e tasks) will remain in localstorage
+</p>
 
 <h3>✨You can vist the website here: <a href="https://yashbrid03.github.io/Todo-list-using-javascript/">Todo-List in JS</a>✨</h3>
 

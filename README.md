@@ -1,7 +1,7 @@
 # Todo-list-using-javascript
 <h2>📙 Abstract :</h2>
-<p>Todo-list web application is used to manage and keep track of day-to-day task.
-  It includes Features like
+<p>Todo-list web application is used to manage and keep track of day-to-day task.<br>
+  <h4>It includes following Features :</h4>
   <ul>
     <li>Adding task</li>
     <li>Removing Task</li>
